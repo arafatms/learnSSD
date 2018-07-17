@@ -44,8 +44,8 @@ Average_No_of_Reqs_in_Queue_Flow1 = 8
 | 256  | 771 | 24681 |
 
 
-![Alt text](https://github.com/arafatms/learnSSD/blob/master/文档/运行%20MQSimfast18data-cache-contention%20实例/SlowDown_Flow1.JPG)             ![Alt text](./SlowDown_Flow2.jpg) 
-![Alt text](./Fairness.jpg)                 ![Alt text](./Weighted_Speedup.jpg) 
+![Alt text](https://github.com/arafatms/learnSSD/blob/master/文档/运行%20MQSimfast18data-cache-contention%20实例/SlowDown_Flow1.JPG)             ![Alt text](https://github.com/arafatms/learnSSD/blob/master/文档/运行%20MQSimfast18data-cache-contention%20实例/SlowDown_Flow2.JPG) 
+![Alt text](https://github.com/arafatms/learnSSD/blob/master/文档/运行%20MQSimfast18data-cache-contention%20实例/Fairness.JPG)                 ![Alt text](https://github.com/arafatms/learnSSD/blob/master/文档/运行%20MQSimfast18data-cache-contention%20实例/Weighted_Speedup.jpg) 
 
 ## 总结
 我们得出结论，当一个流具有高写入强度时，写入高速缓存争用会导致同时运行流的不公平性和整体性能下降。 在这些情况下，高写入强度流不受写缓存的影响; 防止其他较低写入强度的流量利用写入缓存，即使其他流量从缓存中获益也是如此。 这促使需要公平的写高速缓存管理算法，以便考虑到间隔干扰和流写入强度。
