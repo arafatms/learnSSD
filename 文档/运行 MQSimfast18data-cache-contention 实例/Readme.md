@@ -44,7 +44,7 @@ Average_No_of_Reqs_in_Queue_Flow1 = 8
 | 256  | 771 | 24681 |
 
 
-![Alt text](./SlowDown_Flow1.jpg)             ![Alt text](./SlowDown_Flow2.jpg) 
+![Alt text](https://github.com/arafatms/learnSSD/blob/master/文档/运行%20MQSimfast18data-cache-contention%20实例/SlowDown_Flow1.JPG)             ![Alt text](./SlowDown_Flow2.jpg) 
 ![Alt text](./Fairness.jpg)                 ![Alt text](./Weighted_Speedup.jpg) 
 
 ## 总结
